@@ -19,3 +19,7 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
+
+[context.production.environment]
+  API_BASE_URL = "https://api.example.com"
+  API_KEY = "your_api_key_here"
